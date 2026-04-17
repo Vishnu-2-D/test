@@ -25,6 +25,15 @@ public class Test {
     System.out.println("The multiplcation result is: " +result2);
     
   }
+  
+   static void multi(){
+
+    int a=10;
+    int b=15;
+    int result2 = a/b;
+    System.out.println("The division result is: " +result3);
+    
+  }
 
   public static void main(String[] args)
   {
