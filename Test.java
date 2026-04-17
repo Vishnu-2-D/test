@@ -26,8 +26,20 @@ public class Test {
         int t = 15;
 
         if (t != 0) {
-            double result3 = (double) s / t;  // important change
+            double result3 = (double) s / t;
             System.out.println("The division result is: " + result3);
+        } else {
+            System.out.println("Cannot divide by zero");
+        }
+    }
+
+    static void mod() {
+        int a = 10;
+        int b = 3;
+
+        if (b != 0) {
+            int result4 = a % b;
+            System.out.println("The remainder is: " + result4);
         } else {
             System.out.println("Cannot divide by zero");
         }
@@ -37,6 +49,7 @@ public class Test {
         add();
         sub();
         multi();
-        div(); 
+        div();
+        mod();  
     }
 }
