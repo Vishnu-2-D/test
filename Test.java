@@ -23,9 +23,9 @@ public class Test {
 
     
     static void div() {
-        double a = 10;
-        double b = 15;
-        double result3 = a / b;
+        int s = 10;
+        int t = 15;
+        int result3 = s/t;
         System.out.println("The division result is: " + result3);
     }
 
