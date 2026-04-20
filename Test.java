@@ -35,3 +35,12 @@ public class Test {
         div();
     }
 }
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class TestDemo {
+    @Test
+    public void testFail() {
+        assertEquals(10, 5 + 2); // ❌ fail
+    }
+}
